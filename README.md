@@ -16,7 +16,7 @@ topic, and we at [JJBMC](https://jojomodding.com)
 are looking to train people in the art of reversing games to improve games!
 The guide mainly focuses on
 `JoJo's Bizzare Adventures: All Star Battle R` but,
-***90%*** the knowledge can be translated into other games!
+***90%*** of the knowledge can be translated into other games!
 
 ## The series format
 
