@@ -1,0 +1,11 @@
+# 00 -> Solution
+
+`Answer: NONE`
+
+## Explanation
+
+[Click here for the base64 decryption tool!](https://www.base64encode.org/)
+
+```base64
+Q29uZ3JhdHMgeW91IGRpZCBpdCEKVGhpcyB0aW1lIGkgdW5mb3J0dW5hdGVseSBkb24ndCByZWFsbHkgaGF2ZSBhbnkgKmFjdHVhbCogZXhlcmNpc2UgaSBjb3VsZCBnaXZlCnlvdSwgKioqYnV0KioqIHlvdSBjb3VsZCBqb2luIG91ciBEaXNjb3JkIChodHRwczovL2Rpc2NvcmQuam9qb21vZGRpbmcuY29tKQphbmQgY29tZSBjaGF0IHdpdGggdXMgYWJvdXQgdGhlIHF1YWxpdHkgb2YgdGhlIFJFRyBhbmQgaG93IHlvdSBhcmUgZW5qb3lpbmcgaXQgc28gZmFyIQpPZiBjb3Vyc2UgdGhpcyBpcyBub3QgYSBtYW5kYXRvcnkgYnV0IGl0IHdvdWxkIHJlYWxseSBiZSBhcHByZWNpYXRlZCE=
+```
