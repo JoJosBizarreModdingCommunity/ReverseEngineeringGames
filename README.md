@@ -26,4 +26,4 @@ Youtube videos posted on our [channel](https://youtube.jojomodding.com).
 
 ## Episode List
 
-- 00 -> ["Introduction to Reverse Engineering"](episodes/00_introduction/episode.md)
+- 00 -> ["Introduction to Reverse Engineering Games"](episodes/00_introduction/episode.md)
