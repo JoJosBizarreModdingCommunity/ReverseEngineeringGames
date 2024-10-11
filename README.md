@@ -5,7 +5,7 @@ This repo is for me storing the script/resources on the REG
 
 ## What is REG?
 
-REG (Reverse Engineering Games) series is meant to teach complete beginners from 
+REG (Reverse Engineering Games) series is meant to teach complete beginners from
 ground up topics that will help them in reversing a game,
 and modding them to their hearts content!
 
@@ -27,8 +27,8 @@ Youtube videos posted on our [channel](https://youtube.jojomodding.com).
 ## Episode List
 
 - 00 -> ["Introduction to Reverse Engineering Games"](episodes/00_introduction/episode.md)
+- 01 -> ["Numerical Systems"](episodes/01_numerical_systems/episode.md)
 
 ## Credits
 
 - [Kapilarny](https://github.com/Kapilarny/) -> Main writer for REG
-

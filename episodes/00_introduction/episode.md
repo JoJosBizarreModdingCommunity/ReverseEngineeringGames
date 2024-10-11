@@ -116,4 +116,6 @@ and finding out how it's made to take advantage of it.
 Good luck on your first exercise!<br>
 [Have fun >:)](exercise.md)
 
+## [Next Episode](../01_numerical_systems/episode.md)
+
 ### made by kap
