@@ -9,11 +9,11 @@ Oh poor little soul. Trust me you do **need** this.
 Don't be afraid though, this stuff is pretty easy fortunately
 enough hahaha. Througout the series we will use mainly 3 numerical systems:
 
-- Arabic (base10) -> 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+- Decimal (base10) -> 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
 - Binary (base2) -> 0, 1
 - Hexadecimal (base16) -> 0-9 + A, B, C, D, E, F
 
-***Arabic*** is pretty self explanatory i think (it's just what you use every day)<br>
+***Decimal*** is pretty self explanatory i think (it's just what you use every day)<br>
 ***Binary*** is used obviously because computers operate on it<br>
 and ***Hex*** is used for *simplifying* the ***binary*** values into 2 characters
 
@@ -29,7 +29,7 @@ Either a 1 or a 0. Here's an example of representing number `123` in binary.
 "ok, but how does it work though?"<br>
 Great question. Let's try to translate this string of 0's and 1's back into `123`<br>
 First notice that there's a prefix of `0b` in our binary string.
-This will be our indicator throughout the series that what we are looking at
+This is a popular standard (but not the only one) for indicating that a value
 is indeed a binary value. So let's first yeet that out.
 
 ```c
@@ -77,9 +77,10 @@ Now heres `123` in hex.
 0x7B
 ```
 
-First notice how theres a `0x` prefix before the actual data of the value. This will
-be used as an indicator throught the series that we are dealing with a hexadecimal
-value.
+First notice how theres a `0x` prefix before the actual data of the value.
+This is a popular standard (but not the only one) for specifying
+that a value is indeed a hexadecimal value.
+
 
 ![Assigned powers of 16](assets/01_1_hex_pow16.png)
 
@@ -91,7 +92,7 @@ Notice how `b` changed into `11` since we went over digits and started counting 
 characters (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B)
 
 Now this may seem kinda complicated, cause it is, but the point of hexadecimal
-isn't to actually know the "*true*" value of a ***byte*** (array of 8 bits)
+isn't to actually know the "*true*" value of a ***byte*** (group of 8 bits)
 but to make it easy to *compare* ***bytes*** to each other.<br>
 
 You can clearly see that `0x123 < 0x213` <br>
@@ -99,12 +100,13 @@ But not so much with `0b01111011 < 0b1000010011`
 
 ## Quick Recap
 
-- We use 3 numerical systems around here: Arabic (base10), Binary (base2)
+- We use 3 numerical systems around here: Decimal (base10), Binary (base2)
 and Hex (base16)
 - You gotta understand those systems, but not be able to calculate the
-numbers instantly nor fast even
-- a ***bit*** is a 0 or a 1
-- a ***byte*** is an array of 8 ***bits***
+numbers instantly nor fast even, since you can just use
+tools to calculate them for you
+- a ***bit*** is a digit in binary and can either be set to `0` or a `1`
+- a ***byte*** is an group of 8 ***bits***
 
 ## Exercise
 
